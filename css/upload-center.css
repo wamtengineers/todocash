@@ -1,0 +1,90 @@
+﻿#backgroundPopup{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#000000;
+z-index:9998;
+}
+#UploadCenter{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+z-index:9999;
+}
+#UploadCenterContent{
+width:800px;
+background:#E9EAEE;
+font-size:13px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+}
+#UploadCenterContent #file-list{
+background:#fff;
+margin:10px;
+height:400px;
+overflow:auto;
+}
+#UploadCenterContent #file-list ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+#UploadCenterContent #file-list ul li{
+float:left;
+display:block;
+width:180px;
+text-align:center;
+padding:10px 0 10px 9px;
+}
+#UploadCenterContent #file-list ul li.last{
+margin-right:0px;
+}
+#UploadCenterContent #file-list ul li a.img_thumb{
+display:block;
+text-align:center;
+height:100px;
+overflow:hidden;
+}
+#UploadCenterContent #file-list ul li img{
+max-width:180px;
+max-height:180px;
+}
+#UploadCenterContent #file-list ul li span{
+font-size:11px;
+cursor:pointer;
+}
+#UploadCenter h1{
+text-align:left;
+margin:0;
+color:#000;
+font-size:22px;
+font-weight:700;
+padding-bottom:2px;
+}
+#UploadCenterClose{
+font-size:16px;
+line-height:14px;
+right:-20px;
+top:-20px;
+position:absolute;
+color:#6fa5fd;
+font-weight:700;
+display:block;
+}
+.UploadCenterButton{
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background:#E9EAEE;
+padding:5px 10px;
+color:#000000;
+margin-bottom:10px;
+border:solid 1px #999;
+}
+#myForm input{ display:inline;}
